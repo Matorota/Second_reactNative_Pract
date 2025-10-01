@@ -1,0 +1,506 @@
+{
+  "categories": [
+    {
+      "id": "sriubos",
+      "name": "Sriubos",
+      "description": "Sveikos ir maistingos sriubos"
+    },
+    {
+      "id": "desertai",
+      "name": "Desertai",
+      "description": "Sveiki desertai be pridėtinio cukraus"
+    },
+    {
+      "id": "pagrindiniai",
+      "name": "Pagrindiniai patiekalai",
+      "description": "Maistingi ir sveiki pagrindiniai patiekalai"
+    },
+    {
+      "id": "salotai",
+      "name": "Salotai",
+      "description": "Šviežios ir spalvingos salotų variacijos"
+    },
+    {
+      "id": "gerimai",
+      "name": "Gėrimai",
+      "description": "Sveiki ir gaivūs gėrimai kiekvienai dienai"
+    },
+    {
+      "id": "uzkandziai",
+      "name": "Užkandžiai",
+      "description": "Maistingi ir energiją duodantys užkandžiai"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "categoryId": "sriubos",
+      "title": "Brokolių kreminė sriuba",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "30 min",
+      "servings": 4,
+      "ingredients": [
+        "500g brokolių",
+        "1 svogūnas",
+        "2 česnako skiltelės",
+        "400ml daržovių sultinio",
+        "200ml kokosų pieno",
+        "2 šaukštai alyvuogių aliejaus",
+        "Druska, pipirai pagal skonį"
+      ],
+      "instructions": [
+        "Supjaustykite svogūną ir česnaką.",
+        "Įkaitinkite aliejų keptuvėje ir apkepkite svogūną.",
+        "Pridėkite brokolius ir sultinį.",
+        "Virkite 15 minučių.",
+        "Sutrinkite blenderiu iki vientisos masės.",
+        "Pridėkite kokosų pieną ir pagardus."
+      ]
+    },
+    {
+      "id": "2",
+      "categoryId": "sriubos",
+      "title": "Lęšių sriuba su daržovėmis",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "45 min",
+      "servings": 6,
+      "ingredients": [
+        "200g raudonųjų lęšių",
+        "2 morkos",
+        "1 svogūnas",
+        "2 bulvės",
+        "800ml daržovių sultinio",
+        "1 šaukštas alyvuogių aliejaus",
+        "Kmynai, druska, pipirai"
+      ],
+      "instructions": [
+        "Supjaustykite visas daržoves.",
+        "Apkepkite svogūną aliejuje.",
+        "Pridėkite morkas ir bulves, kepkite 5 min.",
+        "Įpilkite sultinį ir lęšius.",
+        "Virkite 25 minutes.",
+        "Pagardinkite pagal skonį."
+      ]
+    },
+    {
+      "id": "3",
+      "categoryId": "desertai",
+      "title": "Avokado šokolado mousse",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "15 min",
+      "servings": 4,
+      "ingredients": [
+        "2 pribrendę avokadai",
+        "3 šaukštai kakavos miltelių",
+        "3 šaukštai medaus",
+        "1/4 puodelio kokosų pieno",
+        "1 šaukštukas vanilės ekstrakto",
+        "Širdukų uogos papuošimui"
+      ],
+      "instructions": [
+        "Išimkite avokadų minkštimą.",
+        "Sumaišykite visus ingredientus blenderyje.",
+        "Plakite iki vientisos masės.",
+        "Atvėsinkite šaldytuve 2 valandas.",
+        "Papuoškite uogomis prieš patiekiant."
+      ]
+    },
+    {
+      "id": "4",
+      "categoryId": "desertai",
+      "title": "Bananų obuolių pyragas",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "60 min",
+      "servings": 8,
+      "ingredients": [
+        "3 pribrendę bananai",
+        "2 obuoliai",
+        "200g avižų dribsnių",
+        "100g riešutų",
+        "2 kiaušiniai",
+        "1 šaukštukas cinamono",
+        "1 šaukštukas kepimo miltelių"
+      ],
+      "instructions": [
+        "Sutrinkite bananus šakute.",
+        "Supjaustykite obuolius smulkiai.",
+        "Sumaišykite visus sausus ingredientus.",
+        "Pridėkite bananus, obuolius ir kiaušinius.",
+        "Kepkite 180°C temperatūroje 45 minutes.",
+        "Atvėsinkite prieš pjaustyant."
+      ]
+    },
+    {
+      "id": "5",
+      "categoryId": "pagrindiniai",
+      "title": "Keptų daržovių ir kinijos salotų dubuo",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "40 min",
+      "servings": 4,
+      "ingredients": [
+        "200g kinijos",
+        "1 baklažanas",
+        "1 cukinija",
+        "1 raudonasis pipiras",
+        "200g pomidorų",
+        "3 šaukštai alyvuogių aliejaus",
+        "2 šaukštai balzamiko acto",
+        "Bazilikai, druska, pipirai"
+      ],
+      "instructions": [
+        "Išvirkite kiniją pagal instrukcijas.",
+        "Supjaustykite daržoves kubeliais.",
+        "Kepkite daržoves orkaitėje 200°C 25 min.",
+        "Paruoškite padažą iš aliejaus ir acto.",
+        "Sumaišykite kiniją su daržovėmis.",
+        "Užpilkite padažu ir papuoškite baziliukais."
+      ]
+    },
+    {
+      "id": "6",
+      "categoryId": "pagrindiniai",
+      "title": "Lašišos file su saldžiosiomis bulvėmis",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "35 min",
+      "servings": 4,
+      "ingredients": [
+        "4 lašišos filė (150g kiekvienas)",
+        "3 saldžiosios bulvės",
+        "2 šaukštai alyvuogių aliejaus",
+        "1 citrinos sultys",
+        "2 česnako skiltelės",
+        "Rozmarinas, druska, pipirai",
+        "Žali lapiniai salotų papuošimui"
+      ],
+      "instructions": [
+        "Supjaustykite saldžiąsias bulves griežinėliais.",
+        "Kepkite bulves orkaitėje 200°C 20 min.",
+        "Paruoškite lašišą su citrina ir česnaku.",
+        "Kepkite lašišą keptuvėje po 4 min kiekvieną pusę.",
+        "Patiekite su keptomis bulvėmis.",
+        "Papuoškite salotų lapais."
+      ]
+    },
+    {
+      "id": "7",
+      "categoryId": "sriubos",
+      "title": "Pomidorų baziliko sriuba",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "25 min",
+      "servings": 4,
+      "ingredients": [
+        "800g konservuotų pomidorų",
+        "1 svogūnas",
+        "3 česnako skiltelės",
+        "500ml daržovių sultinio",
+        "Šviežio baziliko lapeliai",
+        "2 šaukštai alyvuogių aliejaus",
+        "Druska, pipirai pagal skonį"
+      ],
+      "instructions": [
+        "Supjaustykite svogūną ir česnaką.",
+        "Apkepkite svogūną aliejuje iki auksinės spalvos.",
+        "Pridėkite česnaką ir kepkite dar minutę.",
+        "Įpilkite pomidorus ir sultinį.",
+        "Virkite 15 minučių.",
+        "Sutrinkite blenderiu iki vientisos masės.",
+        "Pridėkite baziliką ir pagardus."
+      ]
+    },
+    {
+      "id": "8",
+      "categoryId": "sriubos",
+      "title": "Morkų imbiero sriuba",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "35 min",
+      "servings": 4,
+      "ingredients": [
+        "500g morkų",
+        "1 svogūnas",
+        "2 cm šviežio imbiero",
+        "400ml kokosų pieno",
+        "300ml daržovių sultinio",
+        "2 šaukštai alyvuogių aliejaus",
+        "Druska, pipirai"
+      ],
+      "instructions": [
+        "Supjaustykite morkas ir svogūną.",
+        "Nutarkite imbirą.",
+        "Apkepkite svogūną aliejuje.",
+        "Pridėkite morkas ir imbirą.",
+        "Įpilkite sultinį ir virkite 20 min.",
+        "Sutrinkite blenderiu.",
+        "Pridėkite kokosų pieną ir pagardinkite."
+      ]
+    },
+    {
+      "id": "9",
+      "categoryId": "desertai",
+      "title": "Chia sėklų pudingas",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "10 min + 4h atvėsimas",
+      "servings": 2,
+      "ingredients": [
+        "3 šaukštai chia sėklų",
+        "250ml migdolų pieno",
+        "2 šaukštai medaus",
+        "1/2 šaukštuko vanilės ekstrakto",
+        "Šviežios uogos",
+        "Tarkuoti riešutai"
+      ],
+      "instructions": [
+        "Sumaišykite chia sėklas su pienu.",
+        "Pridėkite medų ir vanilę.",
+        "Gerai išmaišykite.",
+        "Palikite šaldytuve 4 valandas.",
+        "Kas valandą permaišykite.",
+        "Papuoškite uogomis ir riešutais."
+      ]
+    },
+    {
+      "id": "10",
+      "categoryId": "desertai",
+      "title": "Obuolių cinamono crumble",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "50 min",
+      "servings": 6,
+      "ingredients": [
+        "6 obuoliai",
+        "100g avižų dribsnių",
+        "50g migdolų miltų",
+        "3 šaukštai medaus",
+        "2 šaukštai kokosų aliejaus",
+        "1 šaukštukas cinamono",
+        "Šaukštukas vanilės"
+      ],
+      "instructions": [
+        "Supjaustykite obuolius gabaliukais.",
+        "Sudėkite į kepimo formą.",
+        "Sumaišykite visus sausus ingredientus.",
+        "Pridėkite medų ir aliejų.",
+        "Barstyke ant obuolių.",
+        "Kepkite 180°C 30 minučių.",
+        "Patiekite šiltą."
+      ]
+    },
+    {
+      "id": "11",
+      "categoryId": "pagrindiniai",
+      "title": "Kviečių salotų dubuo",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "30 min",
+      "servings": 4,
+      "ingredients": [
+        "200g kviečių grūdų",
+        "1 agurkų",
+        "2 pomidorai",
+        "100g fetos sūrio",
+        "Sauja špinatų",
+        "3 šaukštai alyvuogių aliejaus",
+        "Citrinų sultys"
+      ],
+      "instructions": [
+        "Išvirkite kviečių grūdus pagal instrukcijas.",
+        "Supjaustykite agurką ir pomidorus.",
+        "Sumaišykite su špinatais.",
+        "Pridėkite atvėsusius kviečius.",
+        "Supjaustykite fetą.",
+        "Paruoškite padažą iš aliejaus ir citrinų.",
+        "Sumaišykite ir patiekite."
+      ]
+    },
+    {
+      "id": "12",
+      "categoryId": "pagrindiniai",
+      "title": "Tofu su daržovėmis",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "25 min",
+      "servings": 3,
+      "ingredients": [
+        "300g tofu",
+        "1 paprika",
+        "1 cukinija",
+        "100g šparaginių pupelių",
+        "2 šaukštai sojų padažo",
+        "1 šaukštas sezamo aliejaus",
+        "Česnakų ir imbiero"
+      ],
+      "instructions": [
+        "Supjaustykite tofu kubeliais.",
+        "Supjaustykite visas daržoves.",
+        "Apkepkite tofu iki auksinės spalvos.",
+        "Pridėkite daržoves ir kepkite 5 min.",
+        "Įpilkite sojų padažą.",
+        "Kepkite dar 3 minutes.",
+        "Pabarstkite sezamo aliejumi."
+      ]
+    },
+    {
+      "id": "13",
+      "categoryId": "salotai",
+      "title": "Mediteraniečių salotai",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "15 min",
+      "servings": 4,
+      "ingredients": [
+        "200g mišrainių salotų",
+        "1 didelis pomidoras",
+        "1 agurkas",
+        "100g fetos sūrio",
+        "50g juodųjų alyvuogių",
+        "1/2 raudonojo svogūno",
+        "3 šaukštai alyvuogių aliejaus",
+        "2 šaukštai balzamiko acto",
+        "1 šaukštukas džiovintų prieskonių"
+      ],
+      "instructions": [
+        "Nuplaukite ir nusausinkite salotų lapus.",
+        "Supjaustykite pomidorą ir agurką griežinėliais.",
+        "Supjaustykite svogūną plonais žiedais.",
+        "Sumaišykite visas daržoves dubenėlyje.",
+        "Sutrupinkite fetos sūrį ant viršaus.",
+        "Pridėkite alyvuoges.",
+        "Sumaišykite aliejų, actą ir prieskonius padažui.",
+        "Pašlakstykite salotus padažu prieš patiekiant."
+      ]
+    },
+    {
+      "id": "14",
+      "categoryId": "salotai",
+      "title": "Kiniškų kopūstų salotai",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "20 min",
+      "servings": 6,
+      "ingredients": [
+        "1/2 kiniškų kopūstų galvutės",
+        "2 morkos",
+        "1 raudona paprika",
+        "Sauja šviežių citrusinių žalumynų",
+        "50g migdolų",
+        "3 šaukštai sezamo aliejaus",
+        "2 šaukštai ryžių acto",
+        "1 šaukštas medaus",
+        "1 šaukštukas imbiero",
+        "Sezamo sėklos"
+      ],
+      "instructions": [
+        "Smulkiai supjaustykite kiniškus kopūstus.",
+        "Pašiurkškite morkas stambiomis tešlomis.",
+        "Supjaustykite papriką juostelėmis.",
+        "Sumaišykite daržoves dubenėlyje.",
+        "Susmulkinkite migdolus ir citrusinius žalumus.",
+        "Sumaišykite padažo ingredientus.",
+        "Pašlakstykite salotus padažu.",
+        "Pabarstkite migdolais ir sezamo sėklomis."
+      ]
+    },
+    {
+      "id": "15",
+      "categoryId": "gerimai",
+      "title": "Žaliasis smoothie",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "5 min",
+      "servings": 2,
+      "ingredients": [
+        "1 bananas",
+        "1 puodelis špinatų",
+        "1/2 avokado",
+        "1 obuolys",
+        "300ml kokosų vandens",
+        "1 šaukštas chia sėklų",
+        "1 šaukštukas medaus",
+        "Ledukų pagal skonį"
+      ],
+      "instructions": [
+        "Nulupkite bananą ir obuolį.",
+        "Supjaustykite visus vaisius gabalėliais.",
+        "Įdėkite visus ingredientus į blenderį.",
+        "Plakite 60 sekundžių iki vientisos masės.",
+        "Paragaukite ir pagardinkite pagal skonį.",
+        "Pridėkite ledukų jei norite šaltesnio gėrimo.",
+        "Išpilkite į stiklines ir patiekite iš karto."
+      ]
+    },
+    {
+      "id": "16",
+      "categoryId": "gerimai",
+      "title": "Imbirų citrininių arbata",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "10 min",
+      "servings": 4,
+      "ingredients": [
+        "4 cm šviežio imbiero šaknies",
+        "2 citrinų sultys",
+        "1 litras vandens",
+        "2 šaukštai medaus",
+        "Keletas mėtų lapelių",
+        "1 šaukštukas kurkumos"
+      ],
+      "instructions": [
+        "Nulupkite ir smulkiai sukapokite imbirą.",
+        "Užvirkite vandenį puode.",
+        "Įdėkite imbirą ir virkite 5 minutes.",
+        "Nukelkite nuo ugnies ir pridėkite kurkumą.",
+        "Palikite ištraukti 3 minutes.",
+        "Įpilkite citrinų sultis ir medų.",
+        "Papuoškite mėtų lapeliais.",
+        "Gerkite šiltą arba atvėsusį."
+      ]
+    },
+    {
+      "id": "17",
+      "categoryId": "uzkandziai",
+      "title": "Energetiniai kapikonėliai",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "15 min",
+      "servings": 12,
+      "ingredients": [
+        "200g datulių",
+        "100g migdolų",
+        "50g kakavos miltelių",
+        "2 šaukštai chia sėklų",
+        "1 šaukštas kokosų aliejaus",
+        "1 šaukštukas vanilės ekstrakto",
+        "Kokosų drožlių aptepimui"
+      ],
+      "instructions": [
+        "Išmirkykite datulius šiltame vandenyje 10 min.",
+        "Nusunkite vandenį ir sutrinkite datules.",
+        "Sumalukite migdolus smulkiais gabaliukais.",
+        "Sumaišykite datules, migdolus, kakavą.",
+        "Pridėkite chia sėklas, aliejų ir vanilę.",
+        "Sumaišykite iki vientisos masės.",
+        "Formuokite kamuoliukus ir apvoluokite kokosų drožlėmis.",
+        "Atvėsinkite šaldytuve 30 minučių."
+      ]
+    },
+    {
+      "id": "18",
+      "categoryId": "uzkandziai",
+      "title": "Avokado tostai",
+      "image": "https://via.placeholder.com/300x200",
+      "prepTime": "10 min",
+      "servings": 2,
+      "ingredients": [
+        "2 pilno grūdo duonos riekės",
+        "1 didelis pribrendęs avokadas",
+        "1 pomidoras cherry",
+        "1 šaukštukas citrinos sulčių",
+        "Druska ir pipirai pagal skonį",
+        "Raudonieji pipirai",
+        "Alyvuogių aliejus",
+        "Saulėgrąžų sėklos"
+      ],
+      "instructions": [
+        "Ištrinkite duoną tosteriu iki auksinės spalvos.",
+        "Išimkite avokado minkštimą ir sutrinkite šakute.",
+        "Pridėkite citrinos sultis, druską ir pipirus.",
+        "Patepalučkite ant duonos riekių.",
+        "Supjaustykite pomidorėlius pusėmis.",
+        "Išdėstykite ant avokado masės.",
+        "Pašlakstykite alyvuogių aliejumi.",
+        "Pabarstkite saulėgrąžų sėklomis."
+      ]
+    }
+  ]
+}

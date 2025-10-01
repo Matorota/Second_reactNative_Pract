@@ -1,0 +1,172 @@
+{
+  "comments": [
+    {
+      "id": "1",
+      "recipeId": "1",
+      "text": "Puikus receptas! Sriuba išėjo labai kreminė ir skani.",
+      "author": "Gintarė M.",
+      "timestamp": 1696204800000
+    },
+    {
+      "id": "2",
+      "recipeId": "1",
+      "text": "Naudojau šaldytus brokolius ir išėjo puikiai.",
+      "author": "Tomas K.",
+      "timestamp": 1696291200000
+    },
+    {
+      "id": "3",
+      "recipeId": "2",
+      "text": "Maistinga ir sotus patiekalas. Vaikams labai patiko.",
+      "author": "Laura S.",
+      "timestamp": 1696377600000
+    },
+    {
+      "id": "4",
+      "recipeId": "2",
+      "text": "Pridėjau šiek tiek kmynų - labai skaniai išėjo!",
+      "author": "Andrius V.",
+      "timestamp": 1696464000000
+    },
+    {
+      "id": "5",
+      "recipeId": "3",
+      "text": "Negalėjau patikėti, kad tai šokolado desertas su avokadais. Labai skanios!",
+      "author": "Rūta P.",
+      "timestamp": 1696550400000
+    },
+    {
+      "id": "6",
+      "recipeId": "3",
+      "text": "Ideali alternatyva saldumynams. Vaikai neįtarė, kad yra avokadų.",
+      "author": "Mindaugas L.",
+      "timestamp": 1696636800000
+    },
+    {
+      "id": "7",
+      "recipeId": "4",
+      "text": "Pyragas išėjo labai drėgnas ir aromatingas. Rekomenduoju!",
+      "author": "Jovita B.",
+      "timestamp": 1696723200000
+    },
+    {
+      "id": "8",
+      "recipeId": "4",
+      "text": "Naudojau graikinį jogurtą vietoj kiaušinių - puikus rezultatas.",
+      "author": "Darius G.",
+      "timestamp": 1696809600000
+    },
+    {
+      "id": "9",
+      "recipeId": "5",
+      "text": "Spalvingas ir maistingas patiekalas. Tinka ir kaip šaltos salatos.",
+      "author": "Elena K.",
+      "timestamp": 1696896000000
+    },
+    {
+      "id": "10",
+      "recipeId": "5",
+      "text": "Pridėjau avokadų - dar skaniau!",
+      "author": "Karolis D.",
+      "timestamp": 1696982400000
+    },
+    {
+      "id": "11",
+      "recipeId": "6",
+      "text": "Lašiša išėjo labai sultinga. Saldžiosios bulvės puikiai dera.",
+      "author": "Agnė R.",
+      "timestamp": 1697068800000
+    },
+    {
+      "id": "12",
+      "recipeId": "6",
+      "text": "Naudojau spragintą sezamą papuošimui - labai skanu.",
+      "author": "Vytautas J.",
+      "timestamp": 1697155200000
+    },
+    {
+      "id": "13",
+      "recipeId": "7",
+      "text": "Klasikinė sriuba, bet labai skani. Bazilikas suteikia puikų aromatą.",
+      "author": "Ieva T.",
+      "timestamp": 1697241600000
+    },
+    {
+      "id": "14",
+      "recipeId": "7",
+      "text": "Pridėjau šiek tiek grietinėlės - dar kreminiau.",
+      "author": "Rokas N.",
+      "timestamp": 1697328000000
+    },
+    {
+      "id": "15",
+      "recipeId": "8",
+      "text": "Imbiero aromatas puikiai dera su morkomis. Labai šiltas patiekalas.",
+      "author": "Simona F.",
+      "timestamp": 1697414400000
+    },
+    {
+      "id": "16",
+      "recipeId": "8",
+      "text": "Tobula žiemos sriuba. Šildo ir maitina.",
+      "author": "Gediminas M.",
+      "timestamp": 1697500800000
+    },
+    {
+      "id": "17",
+      "recipeId": "9",
+      "text": "Puikus pusryčių variantas. Sėklos gerai iš sineša ir tekstūra puiki.",
+      "author": "Julija A.",
+      "timestamp": 1697587200000
+    },
+    {
+      "id": "18",
+      "recipeId": "9",
+      "text": "Pridėjau granatos grūdų - labai gražiai atrodo ir skaniai.",
+      "author": "Paulius H.",
+      "timestamp": 1697673600000
+    },
+    {
+      "id": "19",
+      "recipeId": "10",
+      "text": "Tobulas rudens desertas. Namas kvepėjo cineamno aromatu.",
+      "author": "Monika L.",
+      "timestamp": 1697760000000
+    },
+    {
+      "id": "20",
+      "recipeId": "10",
+      "text": "Patiekiau su vanilės ledais - nepriekaištinga kombinacija.",
+      "author": "Arūnas C.",
+      "timestamp": 1697846400000
+    },
+    {
+      "id": "21",
+      "recipeId": "11",
+      "text": "Sotus ir maistingas patiekalas. Tobulas pietų variantas.",
+      "author": "Vaida E.",
+      "timestamp": 1697932800000
+    },
+    {
+      "id": "22",
+      "recipeId": "11",
+      "text": "Kviečiai suteikia puikią tekstūrą. Labai sveika.",
+      "author": "Marius P.",
+      "timestamp": 1698019200000
+    },
+    {
+      "id": "23",
+      "recipeId": "12",
+      "text": "Spalvingas ir skanus vegetariškas patiekalas.",
+      "author": "Kristina W.",
+      "timestamp": 1698105600000
+    },
+    {
+      "id": "24",
+      "recipeId": "12",
+      "text": "Tofu gerai absorbuoja skonį. Labai patiko.",
+      "author": "Donatas K.",
+      "timestamp": 1698192000000
+    }
+  ]
+}
