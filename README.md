@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+# Sveiko maisto receptai
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Aprašymas
 
-## Get started
+Mobilioji programėlė **„Sveiko maisto receptai“** skirta peržiūrėti receptus pagal kategorijas, žiūrėti recepto detales ir palikti komentarus. Tai paprastas React Native / Expo projektas, skirtas mokymuisi ir užduoties įgyvendinimui.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Funkcionalumas
 
-2. Start the app
+* Receptų kategorijos (pvz., sriubos, desertai, pagrindiniai patiekalai). Kiekviena kategorija atvaizduojama atskirame ekrane.
+* Navigacija tarp ekranų naudojant **React Navigation** arba **Expo Router** (Stack arba Tab navigatorius).
+* Receptų duomenys saugomi JSON formatu programos masyve/objekte.
+* Recepto atvaizdavimas: atidarius receptą matomas pavadinimas, ingredientai ir paruošimo instrukcijos.
+* Komentarų sistema: vartotojas gali įterpti, peržiūrėti ir ištrinti komentarus. Komentarai saugomi vietoje naudojant **AsyncStorage**.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Vertinimo (taškų) sistema
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* Navigacija tarp skirtingų ekrano langų: **3 taškai**
+* Receptų masyvas JSON formatu su kategorijomis: **1 taškas**
+* Recepto atvaizdavimas: **2 taškai**
+* Funkcija įterpti komentarą: **2 taškai**
+* Funkcija atvaizduoti komentarus: **1 taškas**
+* Funkcija ištrinti komentarą: **1 taškas**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Technologijos
 
-When you're ready, run:
+* React Native (arba Expo)
+* React Navigation arba Expo Router
+* AsyncStorage (pvz., `@react-native-async-storage/async-storage`)
+* JavaScript arba TypeScript
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Patarimai vertinimui
 
-## Learn more
+* Užtikrinkite, kad navigacija veikia sklandžiai (3 taškai).
+* Receptai turi būti pateikti kaip JSON masyvas (1 taškas).
+* Recepto detalių langas turi rodyti pavadinimą, ingredientus ir instrukcijas (2 taškai).
+* Patikrinkite, kad komentarai išsaugomi ir vėl atvaizduojami naudojant AsyncStorage (3 taškai bendrai — įterpimas 2 + atvaizdavimas 1).
+* Pridėkite galimybę ištrinti komentarą (1 taškas).
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
+## Autorius
 
-Join our community of developers creating universal apps.
+Matas Štrimaitis
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
