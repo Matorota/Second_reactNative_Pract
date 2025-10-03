@@ -95,7 +95,8 @@ export const recipeDetailStyles = StyleSheet.create({
     ...SHADOWS.small,
   },
   addCommentButton: {
-    alignSelf: "flex-end",
+    alignSelf: "center",
+    marginTop: SIZES.spacingSmall,
   },
   commentItem: {
     padding: SIZES.spacingMedium,

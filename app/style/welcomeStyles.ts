@@ -52,36 +52,6 @@ export const welcomeStyles = StyleSheet.create({
     paddingHorizontal: SIZES.spacingMedium,
     marginBottom: SIZES.spacingXLarge,
   },
-  statsContainer: {
-    flexDirection: "row",
-    alignItems: "center",
-    backgroundColor: COLORS.cardBackground,
-    paddingVertical: SIZES.spacingLarge,
-    paddingHorizontal: SIZES.spacingXLarge,
-    borderRadius: SIZES.radiusLarge,
-    ...SHADOWS.medium,
-  },
-  statItem: {
-    alignItems: "center",
-    flex: 1,
-  },
-  statNumber: {
-    fontSize: SIZES.fontXLarge,
-    fontWeight: "bold",
-    color: COLORS.primary,
-    marginBottom: SIZES.spacingXSmall,
-  },
-  statLabel: {
-    fontSize: SIZES.fontSmall,
-    color: COLORS.textSecondary,
-    fontWeight: "600",
-  },
-  statDivider: {
-    width: 1,
-    height: 40,
-    backgroundColor: COLORS.cardBorder,
-    marginHorizontal: SIZES.spacingMedium,
-  },
   content: {
     flex: 1,
     paddingVertical: SIZES.spacingXLarge,

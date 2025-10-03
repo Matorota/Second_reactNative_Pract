@@ -70,7 +70,7 @@ export default function MainPage() {
         <CustomButton
           title="← Atgal"
           onPress={() => router.back()}
-          gradient={["#e9ecef", "#dee2e6"]}
+          gradient={GRADIENTS.button}
           style={styles.backButton}
         />
       </SafeAreaView>

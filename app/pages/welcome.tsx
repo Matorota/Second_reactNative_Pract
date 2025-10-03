@@ -31,23 +31,6 @@ export default function Welcome() {
             </LinearGradient>
             <Text style={styles.title}>{TEXTS.appName}</Text>
             <Text style={styles.subtitle}>{TEXTS.appSubtitle}</Text>
-
-            <View style={styles.statsContainer}>
-              <View style={styles.statItem}>
-                <Text style={styles.statNumber}>50+</Text>
-                <Text style={styles.statLabel}>Receptų</Text>
-              </View>
-              <View style={styles.statDivider} />
-              <View style={styles.statItem}>
-                <Text style={styles.statNumber}>6</Text>
-                <Text style={styles.statLabel}>Kategorijų</Text>
-              </View>
-              <View style={styles.statDivider} />
-              <View style={styles.statItem}>
-                <Text style={styles.statNumber}>1000+</Text>
-                <Text style={styles.statLabel}>Komentarų</Text>
-              </View>
-            </View>
           </View>
 
           <View style={styles.content}>

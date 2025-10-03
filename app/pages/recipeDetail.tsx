@@ -17,7 +17,7 @@ import commentsData from "../data/comments.json";
 import Header from "../component/Header";
 import CustomButton from "../component/CustomButton";
 import { recipeDetailStyles as styles } from "../style/recipeDetailStyles";
-import { TEXTS } from "../constants";
+import { TEXTS, GRADIENTS } from "../constants";
 
 interface Recipe {
   id: string;
@@ -113,31 +113,6 @@ export default function RecipeDetail() {
     }
   };
 
-  const deleteComment = (commentId: string) => {
-    const isPremadeComment = commentsData.comments.some(
-      (comment) => comment.id === commentId
-    );
-
-    if (isPremadeComment) {
-      Alert.alert("Negalima ištrinti", TEXTS.messages.cannotDelete, [
-        { text: "Gerai", style: "default" },
-      ]);
-      return;
-    }
-
-    Alert.alert("Ištrinti komentarą", TEXTS.messages.confirmDelete, [
-      { text: TEXTS.buttons.cancel, style: "cancel" },
-      {
-        text: TEXTS.buttons.delete,
-        style: "destructive",
-        onPress: () => {
-          const updatedComments = comments.filter((c) => c.id !== commentId);
-          saveComments(updatedComments);
-        },
-      },
-    ]);
-  };
-
   const formatDate = (timestamp: number) => {
     return new Date(timestamp).toLocaleDateString("lt-LT", {
       year: "numeric",
@@ -168,16 +143,6 @@ export default function RecipeDetail() {
             </Text>
             <Text style={styles.commentDate}>{formatDate(item.timestamp)}</Text>
           </View>
-          {!isPremadeComment && (
-            <TouchableOpacity
-              onPress={() => deleteComment(item.id)}
-              style={styles.deleteButton}
-            >
-              <Text style={styles.deleteButtonText}>
-                {TEXTS.buttons.delete}
-              </Text>
-            </TouchableOpacity>
-          )}
         </View>
         <Text style={styles.commentText}>{item.text}</Text>
       </LinearGradient>
@@ -257,7 +222,7 @@ export default function RecipeDetail() {
               <CustomButton
                 title={TEXTS.buttons.addComment}
                 onPress={addComment}
-                gradient={["#e9ecef", "#dee2e6"]}
+                gradient={GRADIENTS.button}
                 style={styles.addCommentButton}
               />
             </View>
@@ -274,7 +239,7 @@ export default function RecipeDetail() {
         <CustomButton
           title="← Atgal"
           onPress={() => router.back()}
-          gradient={["rgba(255,255,255,0.2)", "rgba(255,255,255,0.1)"]}
+          gradient={GRADIENTS.button}
           style={styles.backButton}
         />
       </SafeAreaView>

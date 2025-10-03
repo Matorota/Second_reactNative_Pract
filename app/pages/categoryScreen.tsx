@@ -7,6 +7,7 @@ import Header from "../component/Header";
 import RecipeCard from "../component/RecipeCard";
 import CustomButton from "../component/CustomButton";
 import { categoryScreenStyles as styles } from "../style/categoryScreenStyles";
+import { GRADIENTS } from "../constants";
 
 interface Recipe {
   id: string;
@@ -86,7 +87,7 @@ export default function CategoryScreen() {
         <CustomButton
           title="← Atgal į kategorijas"
           onPress={() => router.back()}
-          gradient={["#e9ecef", "#dee2e6"]}
+          gradient={GRADIENTS.button}
           style={styles.backButton}
         />
       </SafeAreaView>

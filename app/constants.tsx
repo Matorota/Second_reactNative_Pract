@@ -1,91 +1,76 @@
 export const COLORS = {
-  // Primary colors
   primary: "#4a90e2",
   primaryDark: "#357abd",
   primaryLight: "#6bb6ff",
 
-  // Background colors
   background: "#ffffff",
   backgroundLight: "#f8fafe",
   backgroundDark: "#e8f4f8",
 
-  // Text colors
   textPrimary: "#2c3e50",
   textSecondary: "#5a6c7d",
   textLight: "#7f8c8d",
   textWhite: "#ffffff",
 
-  // Accent colors
   success: "#27ae60",
   warning: "#f39c12",
   error: "#e74c3c",
   info: "#3498db",
 
-  // Card colors
   cardBackground: "#ffffff",
   cardBorder: "#e1e8ed",
   cardShadow: "rgba(0, 0, 0, 0.1)",
 
-  // Button colors
   buttonPrimary: "#4a90e2",
-  buttonSecondary: "#95a5a6",
+  buttonSecondary: "#357abd",
   buttonDanger: "#e74c3c",
 
-  // Secondary colors
-  secondary: "#95a5a6",
-  secondaryDark: "#7f8c8d",
+  secondary: "#4a90e2",
+  secondaryDark: "#357abd",
 
-  // Category specific colors
   categories: {
-    sriubos: ["#ff7675", "#fab1a0"],
-    desertai: ["#fd79a8", "#fdcb6e"],
-    pagrindiniai: ["#6c5ce7", "#a29bfe"],
-    salotai: ["#00b894", "#55efc4"],
-    gerimai: ["#0984e3", "#74b9ff"],
-    uzkandziai: ["#e17055", "#ffeaa7"],
+    sriubos: ["#f0f0f0", "#e0e0e0"],
+    desertai: ["#f0f0f0", "#e0e0e0"],
+    pagrindiniai: ["#f0f0f0", "#e0e0e0"],
+    salotai: ["#f0f0f0", "#e0e0e0"],
+    gerimai: ["#f0f0f0", "#e0e0e0"],
+    uzkandziai: ["#f0f0f0", "#e0e0e0"],
   },
 };
 
 export const SIZES = {
-  // Font sizes
   fontSmall: 12,
   fontMedium: 16,
   fontLarge: 20,
   fontXLarge: 24,
   fontXXLarge: 32,
 
-  // Spacing
   spacingXSmall: 4,
   spacingSmall: 8,
   spacingMedium: 16,
   spacingLarge: 24,
   spacingXLarge: 32,
 
-  // Border radius
   radiusSmall: 8,
   radiusMedium: 12,
   radiusLarge: 16,
   radiusXLarge: 24,
 
-  // Button sizes
   buttonHeight: {
     small: 36,
     medium: 44,
     large: 52,
   },
 
-  // Icon sizes
   iconSmall: 16,
   iconMedium: 24,
   iconLarge: 32,
 };
 
 export const TEXTS = {
-  // App info
   appName: "Sveiko Maisto Receptai",
   appSubtitle: "Atraskite sveikus ir skanius receptus kiekvienai dienai",
 
-  // Button texts
   buttons: {
     start: "Pradėti",
     back: "← Atgal",
@@ -95,7 +80,6 @@ export const TEXTS = {
     cancel: "Atšaukti",
   },
 
-  // Labels
   labels: {
     time: "Laikas",
     servings: "Porcijos",
@@ -107,7 +91,6 @@ export const TEXTS = {
     recipes: "receptai",
   },
 
-  // Features
   features: [
     "Sveiki ir maistingi receptai",
     "Išsami paruošimo instrukcija",
@@ -116,13 +99,11 @@ export const TEXTS = {
     "Paprastas ir aiškus naudojimas",
   ],
 
-  // Placeholders
   placeholders: {
     commentText: "Parašykite savo komentarą...",
     authorName: "Jūsų vardas",
   },
 
-  // Messages
   messages: {
     recipeNotFound: "Receptas nerastas",
     cannotDelete: "Šis komentaras negali būti ištrintas",
