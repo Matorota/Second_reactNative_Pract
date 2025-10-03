@@ -4,7 +4,7 @@ import { useRouter } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
 import CustomButton from "../component/CustomButton";
 import { welcomeStyles as styles } from "../style/welcomeStyles";
-import { COLORS, TEXTS, GRADIENTS } from "../constants";
+import { TEXTS, GRADIENTS } from "../constants";
 
 export default function Welcome() {
   const router = useRouter();
